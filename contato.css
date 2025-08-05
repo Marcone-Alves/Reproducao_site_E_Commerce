@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.jersey-20-regular {
+  font-family: "Jersey 20", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#header{
+    width: 100%;
+    height: 178px;
+    background-color: #61ADA0;
+}
+
+#info-header{
+    padding-top: 0.7%;
+    padding-left: 0.7%;
+    width: 95%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#logo-principal{
+    width: 148px;
+    height: 148px;
+    display: inline-block;
+}
+
+#div-contato{
+    width: 195.13px;
+    height: 61.72px;
+    background-color: #B2D5BA;
+    text-align: center;
+    padding-top: 0.5%;
+    border-radius: 20px;
+    font-size: 48px;
+    display: inline-block;
+    color: black;
+    box-shadow: -5px 5px rgba(0, 0, 0, 50%);
+    transition: 0.3s all;
+}
+
+#a-contato{
+    height: 61.72px;
+    margin-left: 15%;
+}
+
+#div-produtos{
+    width: 225.99px;
+    height: 61.72px;
+    background-color: #EFF3CD;
+    text-align: center;
+    padding-top: 0.5%;
+    border-radius: 20px;
+    font-size: 48px;
+    display: inline-block;
+    color: black;
+    box-shadow: -5px 5px rgba(0, 0, 0, 50%);
+    transition: 0.3s all;
+}
+
+#a-produtos{
+    height: 61.72px;
+    margin-left: 3%;
+}
+
+#div-quem-somos{
+    width: 286.72px;
+    height: 61.72px;
+    background-color: #EFF3CD;
+    text-align: center;
+    padding-top: 0.5%;
+    border-radius: 20px;
+    font-size: 48px;
+    display: inline-block;
+    color: black;
+    box-shadow: -5px 5px rgba(0, 0, 0, 50%);
+    transition: 0.3s all;
+}
+
+#a-quem-somos{
+    height: 61.72px;
+    margin-left: 3%;
+}
+
+#div-carrinho{
+    width: 208.07px;
+    height: 61.72px;
+    background-color: #EFF3CD;
+    text-align: center;
+    padding-top: 0.5%;
+    border-radius: 20px;
+    font-size: 48px;
+    display: inline-block;
+    color: black;
+    box-shadow: -5px 5px rgba(0, 0, 0, 50%);
+    transition: 0.3s all;
+}
+
+#a-carrinho{
+    height: 61.72px;
+    margin-left: 3%;
+}
+
+#div-login{
+    width: 124.45px;
+    height: 61.72px;
+    background-color: #EFF3CD;
+    text-align: center;
+    padding-top: 0.5%;
+    border-radius: 20px;
+    font-size: 48px;
+    display: inline-block;
+    color: black;
+    box-shadow: -5px 5px rgba(0, 0, 0, 50%);
+    transition: 0.3s all;
+}
+
+#a-login{
+    height: 61.72px;
+    margin-left: 3%;
+}
+
+#div-lupa{
+    width: 95.57px;
+    height: 92.59px;
+    background-color: #EFF3CD;
+    text-align: center;
+    padding-top: 0.5%;
+    border-radius: 50px;
+    font-size: 48px;
+    display: inline-block;
+    color: black;
+    box-shadow: -5px 5px rgba(0, 0, 0, 50%);
+    transition: 0.3s all;
+}
+
+#a-lupa{
+    height: 92.59px;
+    margin-left: 3%;
+    border-radius: 50px;
+}
+
+#lupa{
+    width: 60px;
+    padding-top: 15%;
+}
+
+#div-contato:hover{
+    background-color: #B2D5BA;
+}
+
+#div-produtos:hover{
+    background-color: #B2D5BA;
+}
+
+#div-quem-somos:hover{
+    background-color: #B2D5BA;
+}
+
+#div-carrinho:hover{
+    background-color: #B2D5BA;
+
+}
+
+#div-login:hover{
+    background-color: #B2D5BA;
+} 
+
+#div-lupa:hover{
+    background-color: #B2D5BA;
+}/*codigo header*/
+
+#elemento-corpo{
+    width: 100%;
+    text-align: center;
+}
+
+#titulo{
+    font-size: 96px;
+    margin-top: 5%;
+}
+
+#div-suporte{
+    background-color: #EFF3CD;
+    width: 673px;
+    height: 202px;
+    border-radius: 30px;
+    text-align: center;
+    display: inline-block;
+    margin: 7% 0% 0% 0%;
+}
+
+#suporte{
+    font-size: 48px;
+}
+
+#div-mail{
+    background-color: #EFF3CD;
+    width: 673px;
+    height: 202px;
+    border-radius: 30px;
+    text-align: center;
+    display: inline-block;
+    margin: 7% 0% 0% 12%;
+}
+
+#mail{
+    font-size: 48px;
+}
+
+#roda-pe{ /*roda pe*/
+    width: 100%;
+    background-color: #61ADA0;
+    height: 157px;
+    margin-top: 15.2%;
+    padding-top: 0.5%;
+    padding-left: 0.5%;
+    vertical-align: top;
+}
+
+#logo-roda-pe{
+    width: 135px;
+    height: 135px;
+    display: inline-block;
+}
+
+p{
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    font-size: 24px;
+    margin: 30px 0px 0px 30px;
+}
