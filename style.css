@@ -42,11 +42,12 @@
     display: inline-block;
     color: black;
     box-shadow: -5px 5px rgba(0, 0, 0, 50%);
+    transition: 0.3s all;
 }
 
 #a-contato{
     height: 61.72px;
-    padding-left: 15%;
+    margin-left: 15%;
 }
 
 #div-produtos{
@@ -60,11 +61,12 @@
     display: inline-block;
     color: black;
     box-shadow: -5px 5px rgba(0, 0, 0, 50%);
+    transition: 0.3s all;
 }
 
 #a-produtos{
     height: 61.72px;
-    padding-left: 3%;
+    margin-left: 3%;
 }
 
 #div-quem-somos{
@@ -78,11 +80,12 @@
     display: inline-block;
     color: black;
     box-shadow: -5px 5px rgba(0, 0, 0, 50%);
+    transition: 0.3s all;
 }
 
 #a-quem-somos{
     height: 61.72px;
-    padding-left: 3%;
+    margin-left: 3%;
 }
 
 #div-carrinho{
@@ -96,11 +99,12 @@
     display: inline-block;
     color: black;
     box-shadow: -5px 5px rgba(0, 0, 0, 50%);
+    transition: 0.3s all;
 }
 
 #a-carrinho{
     height: 61.72px;
-    padding-left: 3%;
+    margin-left: 3%;
 }
 
 #div-login{
@@ -114,11 +118,12 @@
     display: inline-block;
     color: black;
     box-shadow: -5px 5px rgba(0, 0, 0, 50%);
+    transition: 0.3s all;
 }
 
 #a-login{
     height: 61.72px;
-    padding-left: 3%;
+    margin-left: 3%;
 }
 
 #div-lupa{
@@ -132,11 +137,12 @@
     display: inline-block;
     color: black;
     box-shadow: -5px 5px rgba(0, 0, 0, 50%);
+    transition: 0.3s all;
 }
 
 #a-lupa{
     height: 92.59px;
-    padding-left: 3%;
+    margin-left: 3%;
     border-radius: 50px;
 }
 
@@ -147,27 +153,23 @@
 
 #div-contato:hover{
     background-color: #B2D5BA;
-    transition: 0.3s;
 }
 
 #div-produtos:hover{
     background-color: #B2D5BA;
-    transition: 0.3s;
 }
 
 #div-quem-somos:hover{
     background-color: #B2D5BA;
-    transition: 0.3s;
 }
 
 #div-carrinho:hover{
     background-color: #B2D5BA;
-    transition: 0.3s;
+
 }
 
 #div-login:hover{
     background-color: #B2D5BA;
-    transition: 0.3s;
 }
 
 #imagem-corpo{
@@ -178,9 +180,9 @@
 #monitor-espaço{
     width: 446px;
     height: 564px;
-    padding-top: 6%;
-    padding-left: 4%;
+    margin: 6% 0% 0% 4%;
     text-align: center;
+    display: inline-block;
 }
 
 #monitor{
@@ -190,19 +192,100 @@
 
 #nome-monitor{
     font-size: 32px;
-    padding-left: 12%;
     padding-top: 5%;
 }
 
-#valor-desconto{
+#monitor-desconto{
     font-size: 40px;
     color: #8C8C8C;
-    padding-left: 12%;
     padding-top: 5%;
 }
 
-#valor{
+#monitor-valor{
     font-size: 64px;
     padding-top: 5%;
-    padding-left: 12%;
+}
+
+#teclado-espaço{
+    width: 446px;
+    height: 564px;
+    margin: 6% 0% 0% 11%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#teclado{
+    width: 446px;
+    height: 297px;
+}
+
+#nome-teclado{
+    font-size: 32px;
+    padding-top: 5%;
+}
+
+#teclado-desconto{
+    font-size: 40px;
+    color: #8C8C8C;
+    padding-top: 5%;
+}
+
+#teclado-valor{
+    font-size: 64px;
+    padding-top: 5%;
+}
+
+#mouse-espaço{
+    width: 446px;
+    height: 564px;
+    margin: 6% 0% 0% 11%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#mouse{
+    width: 446px;
+    height: 297px;
+}
+
+#nome-mouse{
+    font-size: 32px;
+    padding-top: 5%;
+}
+
+#mouse-desconto{
+    font-size: 40px;
+    color: #8C8C8C;
+    padding-top: 5%;
+}
+
+#mouse-valor{
+    font-size: 64px;
+    padding-top: 5%;
+}
+
+#roda-pe{
+    width: 100%;
+    background-color: #61ADA0;
+    height: 157px;
+    margin-top: 5%;
+    padding-top: 0.5%;
+    padding-left: 0.5%;
+    vertical-align: top;
+}
+
+#logo-roda-pe{
+    width: 135px;
+    height: 135px;
+    display: inline-block;
+}
+
+p{
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    font-size: 24px;
+    margin: 30px 0px 0px 30px;
 }
