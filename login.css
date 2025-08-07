@@ -178,7 +178,6 @@
 
 #login-espaco{
     width: 100%;
-    text-align: center;
 }
 
 #div-cadastro{
@@ -187,6 +186,7 @@
     background-color: #EFF3CD;
     border-radius: 50px;
     margin: 3% 0% 0% 15%;
+    text-align: center;
 }
 
 #e-mail{
@@ -195,7 +195,7 @@
     background-color: #B2D5BA;
     font-size: 48px;
     border-radius: 50px;
-    margin: 0% 0% 0% 15%;
+    margin: 0% 0% 0% 25%;
     transform: translateY(100px);
 }
 
@@ -204,11 +204,81 @@
     height: 68px;
     background-color: #B2D5BA;
     border-radius: 50px;
-    margin: 15% 0% 0% 15%;
+    margin: 12% 0% 0% 25%;
 }
 
 #txt-mail{
     width: 615px;
     height: 68px;
-    opacity: 0;
+    background-color: transparent;
+    border-radius: 50px;
+    border: transparent;
+    font-size: larger;
+    padding-left: 5%;
+}
+
+#senha{
+    width: 229px;
+    height: 68px;
+    background-color: #B2D5BA;
+    font-size: 48px;
+    border-radius: 50px;
+    margin: 0% 0% 0% 25%;
+    transform: translateY(100px);
+}
+
+#espaco-senha{
+    width: 615px;
+    height: 68px;
+    background-color: #B2D5BA;
+    border-radius: 50px;
+    margin: 12% 0% 0% 25%;
+}
+
+#txt-senha{
+    width: 615px;
+    height: 68px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: transparent;
+    font-size: larger;
+    padding-left: 5%;
+}
+
+#cadastre-se{
+    width: 367px;
+    height: 101px;
+    border-radius: 50px;
+    background-color: #B2D5BA;
+    font-size: 48px;
+    transition: 0.3s all;
+    border: none;
+    margin: 4% 0% 0% 0%;
+}
+
+#cadastre-se:hover{
+    background-color: #61ADA0;
+}
+
+#roda-pe{ /*roda pe*/
+    width: 100%;
+    background-color: #61ADA0;
+    height: 157px;
+    margin-top: 3%;
+    padding-left: 0.5%;
+    vertical-align: top;
+}
+
+#logo-roda-pe{
+    width: 135px;
+    height: 135px;
+    display: inline-block;
+}
+
+p{
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    font-size: 24px;
+    margin: 30px 0px 0px 30px;
 }
