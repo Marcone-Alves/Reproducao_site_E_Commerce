@@ -202,6 +202,10 @@
 
 }
 
+#div-comprar:hover{
+    background-color: #61ADA0;
+}
+
 #a-comprar{
     height: 61.72px;
 }
