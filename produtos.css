@@ -12,7 +12,7 @@
 
 #header{
     width: 100%;
-    height: 178px;
+    height: 161px;
     background-color: #61ADA0;
 }
 
@@ -26,8 +26,8 @@
 }
 
 #logo-principal{
-    width: 148px;
-    height: 148px;
+    width: 140.76px;
+    height: 140.76px;
     display: inline-block;
 }
 
@@ -183,7 +183,7 @@
 #monitor-espaço{
     width: 446px;
     height: 564px;
-    margin: 6% 0% 0% 4%;
+    margin: 3% 0% 0% 4%;
     text-align: center;
     display: inline-block;
 }
@@ -201,7 +201,7 @@
 #teclado-espaço{
     width: 446px;
     height: 564px;
-    margin: 6% 0% 0% 11%;
+    margin: 3% 0% 0% 11%;
     text-align: center;
     display: inline-block;
     vertical-align: top;
@@ -220,7 +220,7 @@
 #mouse-espaço{
     width: 446px;
     height: 564px;
-    margin: 6% 0% 0% 11%;
+    margin: 3% 0% 0% 11%;
     text-align: center;
     display: inline-block;
     vertical-align: top;
@@ -240,7 +240,7 @@
     width: 100%;
     background-color: #61ADA0;
     height: 157px;
-    margin-top: 15.2%;
+    margin-top: 0%;
     padding-top: 0.5%;
     padding-left: 0.5%;
     vertical-align: top;

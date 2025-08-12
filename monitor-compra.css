@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body{
+    overflow-y: hidden;
+}
+
 .jersey-20-regular {
   font-family: "Jersey 20", sans-serif;
   font-weight: 400;
@@ -110,7 +114,7 @@
 #div-login{
     width: 124.45px;
     height: 61.72px;
-    background-color: #B2D5BA;
+    background-color: #EFF3CD   ;
     text-align: center;
     padding-top: 0.5%;
     border-radius: 20px;
@@ -176,109 +180,65 @@
     background-color: #B2D5BA;
 }/*codigo header*/
 
-#login-espaco{
-    width: 100%;
+#monitor-img{
+    width: 800px;
+    margin-bottom: 3%;
 }
 
-#div-cadastro{
-    width: 1200px;
-    height: 600px;
-    background-color: #EFF3CD;
-    border-radius: 50px;
-    margin: 3% 0% 0% 15%;
+#monitor-div{
+    width: 50%;
+    font-size: 37px;
+    margin: 1% 0% 0% 2%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#info-compra{
+    width: 44.2%;
+    background-color: #B2D5BA;
+    height: 87vb;
+    display: inline-block;
+    margin-left: 69px;
+    font-size: 60px;
     text-align: center;
 }
 
-#e-mail{
-    width: 150px;
-    height: 50px;
-    background-color: #B2D5BA;
-    font-size: 42px;
-    border-radius: 50px;
-    margin: 0% 0% 0% 25%;
-    transform: translateY(50px);
+#nome-produto{
+    width: 771px;
+    margin: 18% 0% 0% 5%;
 }
 
-#espaco-mail{
-    width: 615px;
-    height: 50px;
-    background-color: #B2D5BA;
-    border-radius: 50px;
-    margin: 8% 0% 0% 25%;
+#valor-real{
+    font-size: 58px;
+    color: #747474;
+    margin-left: 3%;
+    text-decoration: line-through;
+    display: inline-block;
 }
 
-#txt-mail{
-    width: 615px;
-    height: 50px;
-    background-color: transparent;
-    border-radius: 50px;
-    border: transparent;
-    font-size: larger;
-    padding-left: 5%;
+#valor-desconto{
+    display: inline-block;
+    margin: 4% 2% 0% 0%;
+    color: #02AA0D;
 }
 
-#senha{
-    width: 150px;
-    height: 50px;
-    background-color: #B2D5BA;
-    font-size: 42px;
-    border-radius: 50px;
-    margin: 0% 0% 0% 25%;
-    transform: translateY(50px);
+#valor-pos{
+    font-size: 88px;
+    margin-top: 6%;
 }
 
-#espaco-senha{
-    width: 615px;
-    height: 50px;
-    background-color: #B2D5BA;
+#comprar-botao{
+    font-size: 90px;
+    background-color: #61ADA0;
+    width: 450px;
+    height: 110px;
     border-radius: 50px;
-    margin: 8% 0% 0% 25%;
-}
-
-#txt-senha{
-    width: 615px;
-    height: 50px;
-    background-color: transparent;
-    border-radius: 50px;
-    border: transparent;
-    font-size: larger;
-    padding-left: 5%;
-}
-
-#cadastre-se{
-    width: 350px;
-    height: 85px;
-    border-radius: 50px;
-    background-color: #B2D5BA;
-    font-size: 48px;
-    transition: 0.3s all;
     border: none;
-    margin: 6% 0% 0% 0%;
+    transition: all 0.3s;
+    margin-top: 80px;
 }
 
-#cadastre-se:hover{
-    background-color: #61ADA0;
-}
-
-#roda-pe{ /*roda pe*/
-    width: 100%;
-    background-color: #61ADA0;
-    height: 157px;
-    margin-top: 3%;
-    padding-left: 0.5%;
-    vertical-align: top;
-}
-
-#logo-roda-pe{
-    width: 135px;
-    height: 135px;
-    display: inline-block;
-}
-
-p{
-    display: inline-block;
-    width: 70%;
-    vertical-align: top;
-    font-size: 24px;
-    margin: 30px 0px 0px 30px;
+#comprar-botao:hover{
+    filter: brightness(80%);
 }
